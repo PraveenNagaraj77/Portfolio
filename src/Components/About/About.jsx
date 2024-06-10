@@ -14,7 +14,7 @@ const About = () => {
 
         <div className='flex-col justify-center flex-1 lg:ml-10 md:w-auto ml-5 p-3  '>
         <p className="text-lg max-w-2xl mx-auto text-center md:text-start  ">
-            <span className='text-green-500 font-bold  '>I'm Praveen</span><br />
+            <span className='text-green-500 font-bold  '>I am Praveen</span><br />
         Completed Master Degree in VIT University. Having an experience of One year in IT Industry and I am passionate about working in the field of Technology. I always find ways to improve myself and Adapting with the latest technology to groom myself. I possess with perseverance so as to achieve organizational Goal while being resourceful , innovative and flexible and Gain my Knowledge and Experience.
         </p>
         <button className='mt-4 px-3 py-3 text-white bg-purple-700 hover:bg-purple-950 rounded-xl'>Download Resume</button>
