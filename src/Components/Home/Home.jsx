@@ -26,7 +26,7 @@ const Home = () => {
           <h1 className="text-2xl mt-16 mr-28  sm:text-3xl ml-16 md:text-4xl lg:text-6xl xl:text-6xl px-3 font-bold text-white mb-4">
             Hi,
             <br />
-            I'm <span className="text-green-500">Praveen</span>
+            Im <span className="text-green-500">Praveen</span>
             <br />
             <span className="text-blue-500">{typedText}</span>
           </h1>
