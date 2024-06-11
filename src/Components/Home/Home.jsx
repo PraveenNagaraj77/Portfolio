@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import useTypewriter from "react-typewriter-hook";
 import logo from "../../assets/homelogo.png";
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faLinkedin, faInstagram, faGithub, faYoutube } from '@fortawesome/free-brands-svg-icons';
 
 const Home = () => {
   const texts = ["Web Developer", "Fullstack Developer", "Software Developer"];
@@ -38,6 +40,20 @@ const Home = () => {
             className=" w-50  mt-8 sm:w-56 mr-12 md:w-64 lg:w-full xl:w-full h-auto"
           />
         </div>
+        {/* <div className="flex justify-center space-x-6 mb-4">
+        <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" className="text-blue-800 hover:text-blue-900">
+          <FontAwesomeIcon icon={faLinkedin} size="2x" />
+        </a>
+        <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" className="text-orange-400 hover:text-pink-800">
+          <FontAwesomeIcon icon={faInstagram} size="2x" />
+        </a>
+        <a href="https://www.github.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-500">
+          <FontAwesomeIcon icon={faGithub} size="2x" />
+        </a>
+        <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" className="text-[#ff0000] hover:text-red-800">
+          <FontAwesomeIcon icon={faYoutube} size="2x" />
+        </a>
+        </div> */}
       </div>
     </section>
   );
