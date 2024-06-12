@@ -1,0 +1,56 @@
+.icon {
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .icon:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+
+
+/* Define the keyframes for the progress bar animation */
+@keyframes loadProgress {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: var(--progress-width);
+    }
+  }
+  
+  /* Apply the animation to the progress bar */
+  .progress-bar {
+    --progress-width: 0;
+    animation: loadProgress 2s ease-out forwards;
+  }
+  
+  /* Set the custom property for each progress bar */
+  .progress-bar[style*="width: 90%"] {
+    --progress-width: 90%;
+  }
+  
+  .progress-bar[style*="width: 80%"] {
+    --progress-width: 80%;
+  }
+  
+  .progress-bar[style*="width: 75%"] {
+    --progress-width: 75%;
+  }
+  
+  .progress-bar[style*="width: 70%"] {
+    --progress-width: 70%;
+  }
+  
+  .progress-bar[style*="width: 65%"] {
+    --progress-width: 65%;
+  }
+  .progress-bar[style*="width: 60%"] {
+    --progress-width: 60%;
+  }
+  
+  .progress-bar[style*="width: 85%"] {
+    --progress-width: 85%;
+  }
+  .progress-bar[style*="width: 50%"] {
+    --progress-width: 50%;
+  }

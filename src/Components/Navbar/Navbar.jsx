@@ -21,7 +21,7 @@ const Navbar = () => {
     <nav className="bg-[#161513] p-4 fixed w-full z-10 top-0 shadow">
       <div className="container mx-auto flex justify-between items-center px-4">
         <a
-          href="#home"
+          href=""
           className={`text-white font-bold text-xl cursor-pointer ${
             activeSection === "home" && "active"
           }`}
@@ -30,7 +30,7 @@ const Navbar = () => {
           Portfolio
         </a>
         <div className="hidden md:flex space-x-4">
-          {["Home", "about", "skills", "experience", "projects", "contact"].map(
+          {[ "about", "skills", "experience", "projects", "contact"].map(
             (section) => (
               <a
                 key={section}
@@ -72,7 +72,7 @@ const Navbar = () => {
       </div>
       {isMenuOpen && (
         <div className="md:hidden py-4 px-2 bg-white">
-          {["Home", "about", "skills", "experience", "projects", "contact"].map(
+          {[ "about", "skills", "experience", "projects", "contact"].map(
             (section) => (
               <a
                 key={section}

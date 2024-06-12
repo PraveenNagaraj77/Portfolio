@@ -11,7 +11,7 @@ const Projects = () => {
 
   return (
     <section id="projects" className="min-h-screen bg-black flex flex-col items-center justify-center p-8">
-      <h2 className="text-4xl font-bold mb-8 text-center text-white">Projects</h2>
+      <h2 className="text-4xl font-bold mb-8 text-center text-white">Recent Works</h2>
       <div className="flex space-x-4 mb-8">
         <button
           onClick={() => setActiveTab('Projects')}

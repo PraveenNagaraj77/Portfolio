@@ -14,7 +14,7 @@ const ProjectData = [
       liveLink: "https://net-flixx-clone-bypraveen.netlify.app/",
       githubLink: "https://github.com/PraveenNagaraj77/NetFlix-Clone",
       image: netflix, // Add the URL to the Netflix banner image
-      tags: ["Fullstack", "MERN Stack"]
+      tags: ["Fullstack"]
     },
     {
       id: 2,
@@ -23,7 +23,7 @@ const ProjectData = [
       liveLink: "https://cryptoprice-track-praveen.netlify.app/",
       githubLink: "https://github.com/PraveenNagaraj77/CryptoPriceTracker",
       image: crypto, // Add the URL to the Crypto Price Tracker banner image
-      tags: ["Fullstack"]
+      tags: [""]
     },
     {
       id: 3,
@@ -50,7 +50,7 @@ const ProjectData = [
       liveLink: "https://todolist-app-react7.netlify.app/",
       githubLink: "https://github.com/PraveenNagaraj77/TodoListApp",
       image: todo, // Add the URL to the ToDo-List App banner image
-      tags: ["Fullstack"]
+      tags: [""]
     },
     {
       id: 6,
@@ -59,7 +59,7 @@ const ProjectData = [
       liveLink: "https://college-page.netlify.app/",
       githubLink: "https://github.com/PraveenNagaraj77/Responsivewebsite",
       image: college, // Add the URL to the Responsive College Website banner image
-      tags: ["Fullstack"]
+      tags: [""]
     }
   ];
   

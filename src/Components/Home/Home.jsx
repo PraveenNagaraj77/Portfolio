@@ -20,7 +20,7 @@ const Home = () => {
 
   return (
     <section
-      id="home"
+      id=""
       className="min-h-screen bg-[rgb(22,21,19)] flex items-center justify-center relative"
     >
       <div className="justify-center flex flex-col sm:flex-row items-center">
