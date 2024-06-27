@@ -18,7 +18,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-[#161513] p-4 fixed w-full z-10 top-0 shadow" data-aos="fade-out" >
+    <nav className="bg-[#161513] p-4 fixed w-full z-10 top-0 shadow" >
       <div className="container mx-auto flex justify-between items-center px-4">
         <a
           href=""
