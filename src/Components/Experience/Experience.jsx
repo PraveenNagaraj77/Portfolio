@@ -36,8 +36,8 @@ const experiences = [
 const Experience = () => {
   return (
     <section id="experience" className="min-h-screen bg-black flex flex-col items-center justify-center p-8">
-      <h2 className="text-4xl font-bold mb-8 text-center text-white">Work Experience</h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 w-full md:w-2/3 lg:w-full">
+      <h2 className="text-4xl font-bold mb-8 text-center text-white"data-aos="fade-up">Work Experience</h2>
+      <div data-aos="flip-up"  className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 w-full md:w-2/3 lg:w-full">
         {experiences.map((exp, index) => (
           <div key={index} className="bg-gray-800 shadow-md rounded-lg p-6">
             <h3 className="text-2xl font-semibold text-white">{exp.title}</h3>

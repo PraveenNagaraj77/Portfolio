@@ -6,7 +6,7 @@ import { faLinkedin, faInstagram, faGithub, faYoutube } from '@fortawesome/free-
 const Footer = () => {
   return (
     <footer className="bg-gray-950 text-center p-6">
-      <div className="flex justify-center space-x-6 mb-4">
+      <div className="flex justify-center space-x-6 mb-4"data-aos="zoom-in">
         <a href="https://www.linkedin.com/in/praveen-nagaraj-a8b956219/" target="_blank" rel="noopener noreferrer" className="icon text-blue-800 hover:text-blue-900">
           <FontAwesomeIcon icon={faLinkedin} size="2x" />
         </a>

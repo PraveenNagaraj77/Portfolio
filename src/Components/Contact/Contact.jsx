@@ -39,8 +39,8 @@ const Contact = () => {
 
   return (
     <section id="contact" className="min-h-screen bg-black flex flex-col items-center justify-center p-8">
-      <h2 className="text-4xl font-bold mb-8 text-center text-white">Contact Me</h2>
-      <form className="w-full md:w-2/3 lg:w-1/2 bg-gray-800 p-8 rounded-lg" onSubmit={handleSubmit}>
+      <h2 className="text-4xl font-bold mb-8 text-center text-white"data-aos="fade-up">Contact Me</h2>
+      <form data-aos="fade-up" className="w-full md:w-2/3 lg:w-1/2 bg-gray-800 p-8 rounded-lg" onSubmit={handleSubmit}>
         <div className="mb-4">
           <label className="block text-white mb-2" htmlFor="name">Name</label>
           <input

@@ -25,11 +25,11 @@ const Skills = () => {
   };
 
   return (
-    <section id="skills" className="py-20 bg-black">
-      <h2 className="text-3xl text-white text-center font-bold mb-10">
+    <section id="skills"  className="py-20 bg-black ">
+      <h2 className="text-3xl text-white text-center font-bold mb-10"data-aos="fade-up">
         Skills
       </h2>
-      <div className="container w-full mx-auto text-center flex flex-col md:flex-row items-center justify-between">
+      <div data-aos="fade-up" className="container w-full mx-auto text-center flex flex-col md:flex-row items-center justify-between">
         <div className="flex w-full md:w-1/2 justify-center flex-row md:flex-wrap">
           {activeTab === "Frontend" && (
             <div className="flex justify-center mb-5 md:mb-0 md:flex-wrap">

@@ -11,8 +11,8 @@ const Projects = () => {
 
   return (
     <section id="projects" className="min-h-screen bg-black flex flex-col items-center justify-center p-8">
-      <h2 className="text-4xl font-bold mb-8 text-center text-white">Recent Works</h2>
-      <div className="flex space-x-4 mb-8">
+      <h2 className="text-4xl font-bold mb-8 text-center text-white"data-aos="fade-up">Recent Works</h2>
+      <div className="flex space-x-4 mb-8"data-aos="fade-up">
         <button
           onClick={() => setActiveTab('Projects')}
           className={`py-2 px-4 rounded ${activeTab === 'Projects' ? 'bg-green-600 text-white' : 'bg-gray-600 text-gray-200'}`}
@@ -32,7 +32,7 @@ const Projects = () => {
           MERN Stack
         </button>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-8 w-full">
+      <div data-aos="zoom-in" className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-8 w-full">
         {filteredProjects.map(project => (
           <div key={project.id} className="group bg-gray-800 shadow-md rounded-lg overflow-hidden cursor-pointer hover:shadow-lg transition duration-300">
             <div className="p-6">
