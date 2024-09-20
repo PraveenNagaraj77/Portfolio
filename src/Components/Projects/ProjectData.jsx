@@ -5,7 +5,7 @@ import mern from '../../assets/banner/mern.png'
 import shoppy from '../../assets/banner/shoppy.png'
 import todo from '../../assets/banner/todo.png'
 import college from '../../assets/banner/college.png'
-import zwiggy from '../../assets/banner/zwiggy_image.png
+import zwiggy from '../../assets/banner/zwiggy_image.png'
 
 const ProjectData = [
     {
