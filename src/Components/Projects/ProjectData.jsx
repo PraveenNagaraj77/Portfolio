@@ -5,6 +5,7 @@ import mern from '../../assets/banner/mern.png'
 import shoppy from '../../assets/banner/shoppy.png'
 import todo from '../../assets/banner/todo.png'
 import college from '../../assets/banner/college.png'
+import zwiggy from '../../assets/banner/zwiggy_image.png
 
 const ProjectData = [
     {
@@ -13,7 +14,7 @@ const ProjectData = [
       description: "Developed Using MERN Stack , We can order food, Select Quantity, make payment,View Orders and in admin panel we can update food details ,Data is stored in MongoDB ",
       liveLink: "https://food-delivery-frontend-iqr6.onrender.com/",
       githubLink: "https://github.com/PraveenNagaraj77/Food-Delivery",
-      image: netflix, // Add the URL to the Netflix banner image
+      image: zwiggy, // Add the URL to the Netflix banner image
       tags: ["MERN Stack"]
     },
     {
