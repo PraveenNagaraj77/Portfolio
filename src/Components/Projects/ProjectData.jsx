@@ -6,7 +6,7 @@ import shoppy from '../../assets/banner/shoppy.png'
 import todo from '../../assets/banner/todo.png'
 import college from '../../assets/banner/college.png'
 import zwiggy from '../../assets/banner/zwiggy_image.png'
-import productList from '../../assets/banner/productList.png'
+import productList from '../../assets/banner/poductList.png'
 
 const ProjectData = [
     {
