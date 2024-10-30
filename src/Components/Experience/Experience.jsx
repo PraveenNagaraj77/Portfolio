@@ -7,7 +7,7 @@ const experiences = [
     duration: "August 2022 - July 2023",
     responsibilities: [
       "Facilitated data transformation into intuitive reports.",
-      "Utilized Dot-net and SQL, displayed data using bar charts and pie charts.",
+      "Utilized ReactJs, Dot-net and SQL, displayed data using bar charts and pie charts.",
       "Contributed to project plans, specifications, and reports."
     ]
   },
