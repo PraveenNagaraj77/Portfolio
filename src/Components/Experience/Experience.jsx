@@ -6,9 +6,12 @@ const experiences = [
     company: "HCL Technologies, Chennai",
     duration: "August 2022 - July 2023",
     responsibilities: [
-      "Facilitated data transformation into intuitive reports.",
-      "Utilized ReactJs, Dot-net and SQL, displayed data using bar charts and pie charts.",
-      "Contributed to project plans, specifications, and reports."
+      "Developed and maintained Java programs to fetch and process data from external databases.",
+      "Performed data manipulation using SQL queries to prepare data for dashboard visualization.",
+      "Debugged Java code to trace and verify internal data flow.",
+      "Built interactive dashboard components using ReactJS and JavaScript.",
+      "Worked with the team to write and execute test cases to ensure data accuracy and functionality."
+
     ]
   },
   {
@@ -16,8 +19,9 @@ const experiences = [
     company: "Cognizant, Chennai",
     duration: "February 2022 - July 2022",
     responsibilities: [
-      "Completed Java full stack development training.",
-      "Worked on Java Angular project (Pet Clinic Spring Boot Application)."
+      "Completed a comprehensive internship training program in software development.",
+      "Developed a Pet Clinic Management System using Java for backend RESTful APIs and ReactJS for frontend.",
+      "Implemented CRUD operations for managing pet records, owners, and appointments with database integration."
     ]
   },
   {
@@ -25,7 +29,8 @@ const experiences = [
     company: "Tech-Citi Software Consulting Private Limited, Bangalore",
     duration: "June 2020 - July 2020",
     responsibilities: [
-      "Developed E-cab Booking System, a web development project for cab bookings."
+      "Developed an E-Cab Booking System frontend using HTML, CSS, and JavaScript.",
+      "Created responsive and interactive web pages for real-time cab reservation and booking management."
     ]
   }
 ];
