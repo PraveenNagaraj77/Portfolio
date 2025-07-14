@@ -9,7 +9,7 @@ import zwiggy from '../../assets/banner/zwiggy_image.png'
 import productList from '../../assets/banner/poductList.png'
 import useraddress from '../../assets/banner/UserAddress.png'
 import ecommerce from '../../assets/banner/ecommerce.png'
-import chatflow frm '../../assests/banner/chatflow.png'
+import chatflow from '../../assests/banner/chatflow.png'
 
 const ProjectData = [
     {
