@@ -9,6 +9,7 @@ import zwiggy from '../../assets/banner/zwiggy_image.png'
 import productList from '../../assets/banner/poductList.png'
 import useraddress from '../../assets/banner/UserAddress.png'
 import ecommerce from '../../assets/banner/ecommerce.png'
+import chatflow frm '../../assests/banner/chatflow.png'
 
 const ProjectData = [
     {
@@ -100,7 +101,16 @@ const ProjectData = [
       githubLink: "https://github.com/PraveenNagaraj77/Responsivewebsite",
       image: college, // Add the URL to the Responsive College Website banner image
       tags: [""]
-    }
+    },
+    {
+      id: 11,
+      title: "Chatflow Builder",
+      description: "A visual interface for designing chatbot conversation flows—essentially a no-code tool where you can create, connect, and edit dialog nodes to build chat logic. It lets you drag and drop message/choice nodes, link them together to define conversation paths, and easily adjust flow behavior  ",
+      liveLink: "https://chat-bot-flow-builder-orpin.vercel.app/",
+      githubLink: "https://github.com/PraveenNagaraj77/ChatBot-Flow-Builder",
+      image: chatflow, // Add the URL to the Netflix banner image
+      tags: [""]
+    },
   ];
   
   export default ProjectData;
