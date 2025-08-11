@@ -15,7 +15,7 @@ import {
   FaCloud,
   FaEnvelope,
 } from "react-icons/fa";
-import { SiTailwindcss, SiMongodb, SiExpress } from "react-icons/si";
+import { SiTailwindcss, SiMongodb, SiExpress ,SiSpringboot } from "react-icons/si";
 
 const Skills = () => {
   const [activeTab, setActiveTab] = useState("Frontend");
@@ -25,11 +25,17 @@ const Skills = () => {
   };
 
   return (
-    <section id="skills"  className="py-20 bg-black ">
-      <h2 className="text-3xl text-white text-center font-bold mb-10"data-aos="fade-up">
+    <section id="skills" className="py-20 bg-black ">
+      <h2
+        className="text-3xl text-white text-center font-bold mb-10"
+        data-aos="fade-up"
+      >
         Skills
       </h2>
-      <div data-aos="fade-up" className="container w-full mx-auto text-center flex flex-col md:flex-row items-center justify-between">
+      <div
+        data-aos="fade-up"
+        className="container w-full mx-auto text-center flex flex-col md:flex-row items-center justify-between"
+      >
         <div className="flex w-full md:w-1/2 justify-center flex-row md:flex-wrap">
           {activeTab === "Frontend" && (
             <div className="flex justify-center mb-5 md:mb-0 md:flex-wrap">
@@ -55,6 +61,13 @@ const Skills = () => {
           )}
           {activeTab === "Backend" && (
             <div className="flex w-full justify-center flex-row md:flex-wrap">
+            <div className="icon m-4 text-4xl sm:text-5xl md:text-9xl text-red-500">
+                <FaJava />
+              </div>
+              <div className="icon m-4 text-4xl sm:text-5xl md:text-9xl text-green-500">
+                <SiSpringboot />
+              </div>
+
               <div className="icon m-4 text-4xl sm:text-5xl md:text-9xl text-green-500">
                 <FaNodeJs />
               </div>
@@ -67,9 +80,7 @@ const Skills = () => {
               <div className="icon m-4 text-4xl sm:text-5xl md:text-9xl text-blue-500">
                 <FaDatabase />
               </div>
-              <div className="icon m-4 text-4xl sm:text-5xl md:text-9xl text-red-500">
-                <FaJava />
-              </div>
+              
             </div>
           )}
           {activeTab === "Tools" && (
@@ -219,6 +230,30 @@ const Skills = () => {
                   <ul className="text-white font-semibold">
                     <li className="mb-4">
                       <div className="flex justify-between">
+                        <span>Java</span>
+                        <span>70%</span>
+                      </div>
+                      <div className="w-full bg-gray-200 rounded-full h-4">
+                        <div
+                          className="bg-red-500 h-4 rounded-full progress-bar"
+                          style={{ width: "70%" }}
+                        ></div>
+                      </div>
+                    </li>
+                    <li className="mb-4">
+                      <div className="flex justify-between">
+                        <span>Spring Boot</span>
+                        <span>70%</span>
+                      </div>
+                      <div className="w-full bg-gray-200 rounded-full h-4">
+                        <div
+                          className="bg-green-600 h-4 rounded-full progress-bar"
+                          style={{ width: "70%" }}
+                        ></div>
+                      </div>
+                    </li>
+                    <li className="mb-4">
+                      <div className="flex justify-between">
                         <span>Node.js</span>
                         <span>60%</span>
                       </div>
@@ -265,18 +300,7 @@ const Skills = () => {
                         ></div>
                       </div>
                     </li>
-                    <li className="mb-4">
-                      <div className="flex justify-between">
-                        <span>Java</span>
-                        <span>70%</span>
-                      </div>
-                      <div className="w-full bg-gray-200 rounded-full h-4">
-                        <div
-                          className="bg-red-500 h-4 rounded-full progress-bar"
-                          style={{ width: "70%" }}
-                        ></div>
-                      </div>
-                    </li>
+
                     {/* Add more backend technologies here with corresponding percentages */}
                   </ul>
                 </div>
